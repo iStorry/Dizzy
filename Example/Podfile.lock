@@ -1,0 +1,16 @@
+PODS:
+  - Dizzy (0.1.0)
+
+DEPENDENCIES:
+  - Dizzy (from `../`)
+
+EXTERNAL SOURCES:
+  Dizzy:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Dizzy: 058947031bd0ab4555932b2819a496ebf105b8bf
+
+PODFILE CHECKSUM: 665dbb637bb89522c66c3f726f02102991bc751a
+
+COCOAPODS: 1.8.4

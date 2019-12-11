@@ -1,0 +1,6 @@
+framework module Dizzy {
+  umbrella header "Dizzy-umbrella.h"
+
+  export *
+  module * { export * }
+}
