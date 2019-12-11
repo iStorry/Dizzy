@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Dizzy'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Basic extensions for swift.'
   s.swift_versions   = '5.0'
   s.description      = <<-DESC
@@ -21,4 +21,5 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/istorry/Dizzy.git', :tag => s.version.to_s }
   s.ios.deployment_target = '13.0'
   s.source_files = 'Dizzy/Classes/**/*'
+  s.resource_bundle = { 'DizzyIcons' => 'Dizzy/Fonts/*.ttf' }
 end

@@ -35,10 +35,6 @@
 		915EBDCC23A0A4B1005A65C9 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915EBD9423A0A4B0005A65C9 /* Icons.swift */; };
 		915EBDCD23A0A4B1005A65C9 /* Dizzy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915EBD9523A0A4B0005A65C9 /* Dizzy.swift */; };
 		915EBDCE23A0A4B1005A65C9 /* Liquid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915EBD9623A0A4B0005A65C9 /* Liquid.swift */; };
-		915EBDCF23A0A4B1005A65C9 /* fa-solid-900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 915EBD9823A0A4B0005A65C9 /* fa-solid-900.ttf */; };
-		915EBDD023A0A4B1005A65C9 /* icon-message.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 915EBD9923A0A4B0005A65C9 /* icon-message.ttf */; };
-		915EBDD123A0A4B1005A65C9 /* fa-regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 915EBD9A23A0A4B0005A65C9 /* fa-regular-400.ttf */; };
-		915EBDD223A0A4B1005A65C9 /* fa-brands-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 915EBD9B23A0A4B0005A65C9 /* fa-brands-400.ttf */; };
 		915EBDD323A0A4B1005A65C9 /* VGSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915EBD9D23A0A4B0005A65C9 /* VGSegment.swift */; };
 		915EBDD423A0A4B1005A65C9 /* VGSegment+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915EBD9E23A0A4B0005A65C9 /* VGSegment+Animation.swift */; };
 		915EBDD523A0A4B1005A65C9 /* VGSegment+UITapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915EBD9F23A0A4B0005A65C9 /* VGSegment+UITapGestureRecognizer.swift */; };
@@ -129,10 +125,6 @@
 		915EBD9423A0A4B0005A65C9 /* Icons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 		915EBD9523A0A4B0005A65C9 /* Dizzy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dizzy.swift; sourceTree = "<group>"; };
 		915EBD9623A0A4B0005A65C9 /* Liquid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Liquid.swift; sourceTree = "<group>"; };
-		915EBD9823A0A4B0005A65C9 /* fa-solid-900.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-solid-900.ttf"; sourceTree = "<group>"; };
-		915EBD9923A0A4B0005A65C9 /* icon-message.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "icon-message.ttf"; sourceTree = "<group>"; };
-		915EBD9A23A0A4B0005A65C9 /* fa-regular-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-regular-400.ttf"; sourceTree = "<group>"; };
-		915EBD9B23A0A4B0005A65C9 /* fa-brands-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-brands-400.ttf"; sourceTree = "<group>"; };
 		915EBD9D23A0A4B0005A65C9 /* VGSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGSegment.swift; sourceTree = "<group>"; };
 		915EBD9E23A0A4B0005A65C9 /* VGSegment+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VGSegment+Animation.swift"; sourceTree = "<group>"; };
 		915EBD9F23A0A4B0005A65C9 /* VGSegment+UITapGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VGSegment+UITapGestureRecognizer.swift"; sourceTree = "<group>"; };
@@ -298,21 +290,9 @@
 				915EBD9423A0A4B0005A65C9 /* Icons.swift */,
 				915EBD9523A0A4B0005A65C9 /* Dizzy.swift */,
 				915EBD9623A0A4B0005A65C9 /* Liquid.swift */,
-				915EBD9723A0A4B0005A65C9 /* Fonts */,
 			);
 			name = Icons;
 			path = Dizzy/Classes/Icons;
-			sourceTree = "<group>";
-		};
-		915EBD9723A0A4B0005A65C9 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				915EBD9823A0A4B0005A65C9 /* fa-solid-900.ttf */,
-				915EBD9923A0A4B0005A65C9 /* icon-message.ttf */,
-				915EBD9A23A0A4B0005A65C9 /* fa-regular-400.ttf */,
-				915EBD9B23A0A4B0005A65C9 /* fa-brands-400.ttf */,
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 		915EBD9C23A0A4B0005A65C9 /* Segment */ = {
@@ -590,6 +570,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 48A945B2B70144746115D0FFA7F2AB71 /* Products */;
@@ -614,10 +595,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				915EBDD223A0A4B1005A65C9 /* fa-brands-400.ttf in Resources */,
-				915EBDD123A0A4B1005A65C9 /* fa-regular-400.ttf in Resources */,
-				915EBDCF23A0A4B1005A65C9 /* fa-solid-900.ttf in Resources */,
-				915EBDD023A0A4B1005A65C9 /* icon-message.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -828,9 +805,11 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+				VALID_ARCHS = "armv7s armv7 arm64e arm64";
 			};
 			name = Release;
 		};
@@ -891,10 +870,12 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+				VALID_ARCHS = "armv7s armv7 arm64e arm64";
 			};
 			name = Debug;
 		};
