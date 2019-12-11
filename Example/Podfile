@@ -1,6 +1,4 @@
 use_frameworks!
 target 'Dizzy_Tests' do
   pod 'Dizzy', :path => '../'
-  
-  
 end
