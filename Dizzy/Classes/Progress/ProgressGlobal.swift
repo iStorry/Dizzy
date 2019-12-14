@@ -83,11 +83,11 @@ public extension UIView {
     func attachLoading() {
         let iprogress: Progress = Progress()
         iprogress.iprogressStyle = .vertical
-        iprogress.indicatorStyle = .ballPulse
+        iprogress.indicatorStyle = .circleStroke
         iprogress.isShowModal = false
         iprogress.isShowCaption = false
         iprogress.boxSize = 25
-        iprogress.boxColor = .black
+        iprogress.boxColor = .clear
         iprogress.indicatorSize = 50
         iprogress.indicatorColor = .white
         iprogress.attachProgress(toViews: self)

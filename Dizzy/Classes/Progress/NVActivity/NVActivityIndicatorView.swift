@@ -19,6 +19,7 @@ public enum NVActivityIndicatorType: Int {
      - returns: Instance of NVActivityIndicatorAnimationBallPulse.
      */
     case ballPulse
+    case circleStroke
 
     static let allTypes = (blank.rawValue ... ballPulse.rawValue).map { NVActivityIndicatorType(rawValue: $0)! }
 
@@ -28,6 +29,8 @@ public enum NVActivityIndicatorType: Int {
             return NVActivityIndicatorAnimationBlank()
         case .ballPulse:
             return NVActivityIndicatorAnimationBallPulse()
+        case .circleStroke:
+            return NVActivityIndicatorAnimationCircleStrokeSpin()
         }
     }
 }

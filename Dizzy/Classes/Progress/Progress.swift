@@ -26,7 +26,7 @@ open class Progress {
     fileprivate var view: UIView?
 
     /** Setting indicator style. Default is ballClipRotatePulse. */
-    open var indicatorStyle: NVActivityIndicatorType = .ballPulse
+    open var indicatorStyle: NVActivityIndicatorType = .circleStroke
     /** Setting iprogress style in vertical or horizontal. Default is vertical. */
     open var iprogressStyle: ProgressStyles = .vertical
     /** Get the indicator view. */

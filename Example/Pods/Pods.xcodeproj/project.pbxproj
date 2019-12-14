@@ -67,6 +67,7 @@
 		915EBDF023A0A4B1005A65C9 /* StatusAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915EBDC623A0A4B1005A65C9 /* StatusAlert.swift */; };
 		915EBDF123A0A4B1005A65C9 /* StatusAlertUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915EBDC723A0A4B1005A65C9 /* StatusAlertUtils.swift */; };
 		915EBDF223A0A4B1005A65C9 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915EBDC923A0A4B1005A65C9 /* Indicator.swift */; };
+		9188F38023A1D9090010ADD3 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9188F37F23A1D9090010ADD3 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */; };
 		C31CED36356CCF2984A3FB2DBD546335 /* Dizzy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 345802E1B2AECA8CB496901E41BB067D /* Dizzy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C505A150EC1DAA4460B154D81844E8DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D88A7DA1FE519CBA1EB221A09D55EB29 /* Dizzy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEA04EFED6977DD0DFEA3415779AAE8 /* Dizzy-dummy.m */; };
@@ -157,6 +158,7 @@
 		915EBDC623A0A4B1005A65C9 /* StatusAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusAlert.swift; sourceTree = "<group>"; };
 		915EBDC723A0A4B1005A65C9 /* StatusAlertUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusAlertUtils.swift; sourceTree = "<group>"; };
 		915EBDC923A0A4B1005A65C9 /* Indicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
+		9188F37F23A1D9090010ADD3 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationCircleStrokeSpin.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A165583A01791C55172EAC4FEB234C26 /* Dizzy.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Dizzy.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B52FD4CC216FAD04340F1335F72D8198 /* Pods_Dizzy_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dizzy_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -376,6 +378,7 @@
 				915EBDB623A0A4B1005A65C9 /* NVActivityIndicatorShape.swift */,
 				915EBDB723A0A4B1005A65C9 /* NVActivityIndicatorAnimationBallPulse.swift */,
 				915EBDB823A0A4B1005A65C9 /* NVActivityIndicatorAnimationBlank.swift */,
+				9188F37F23A1D9090010ADD3 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */,
 				915EBDB923A0A4B1005A65C9 /* NVActivityIndicatorView.swift */,
 				915EBDBA23A0A4B1005A65C9 /* NVActivityIndicatorViewable.swift */,
 			);
@@ -622,6 +625,7 @@
 				915EBDD323A0A4B1005A65C9 /* VGSegment.swift in Sources */,
 				915EBDCE23A0A4B1005A65C9 /* Liquid.swift in Sources */,
 				915EBDD823A0A4B1005A65C9 /* ImageRow.swift in Sources */,
+				9188F38023A1D9090010ADD3 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */,
 				915EBDD423A0A4B1005A65C9 /* VGSegment+Animation.swift in Sources */,
 				915EBDDB23A0A4B1005A65C9 /* OAuth2.swift in Sources */,
 				915EBD1923A0A453005A65C9 /* UIViewController+Extensions.swift in Sources */,
@@ -705,6 +709,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.1.3;
 				MODULEMAP_FILE = "Target Support Files/Dizzy/Dizzy.modulemap";
 				PRODUCT_MODULE_NAME = Dizzy;
 				PRODUCT_NAME = Dizzy;
@@ -898,6 +903,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.1.3;
 				MODULEMAP_FILE = "Target Support Files/Dizzy/Dizzy.modulemap";
 				PRODUCT_MODULE_NAME = Dizzy;
 				PRODUCT_NAME = Dizzy;

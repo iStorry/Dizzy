@@ -26,7 +26,7 @@ enum NVActivityIndicatorShape {
     func layerWith(size: CGSize, color: UIColor) -> CALayer {
         let layer: CAShapeLayer = CAShapeLayer()
         var path: UIBezierPath = UIBezierPath()
-        let lineWidth: CGFloat = 2
+        let lineWidth: CGFloat = 4
 
         switch self {
         case .circle:
@@ -132,8 +132,8 @@ enum NVActivityIndicatorShape {
                         endAngle: .pi + .pi / 2,
                         clockwise: true)
             layer.fillColor = nil
-            layer.strokeColor = color.cgColor
-            layer.lineWidth = 2
+            layer.strokeColor = UIColor(red:0.23, green:0.60, blue:0.87, alpha:1.0).cgColor
+            layer.lineWidth = 4
         }
 
         layer.backgroundColor = nil
